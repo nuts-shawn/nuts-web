@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "cjkFont";
+    src: url('./font/CEFFontsCJK-Regular.ttf');
+}
+
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+    background-image:
+        url('https://cdn.pixabay.com/photo/2023/02/01/21/40/pink-7761356_1280.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.flower-container {
+    padding: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#flower {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    max-height: 50%;
+    animation-duration: 5s;
+}
+
+@keyframes bloom {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.content-container {
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item {
+    padding: 10px;
+    margin: 10px;
+}
+
+.content-container div:nth-child(1) {
+    flex-basis: 50%;
+}
+
+.content-container div:nth-child(2) {
+    flex-basis: 50%;
+    margin: 50px;
+    max-height: 80%;
+    overflow: scroll;
+    font-size: 25px;
+    font-family: 'cjkFont', sans-serif;
+}
+
+.carousel-item img,
+.carousel-item video {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    max-height: 80vh;
+    object-fit: cover;
+    object-position: center center;
+}
