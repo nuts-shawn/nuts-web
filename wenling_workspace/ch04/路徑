@@ -1,0 +1,15 @@
+外部絕對路徑
+https://www.japaholic.com/storage/files/article_images/NzkyMDIyMDIxODIxMjYxMjkw.jpg
+內部絕對路徑
+C:\Users\wenli\OneDrive\桌面\wenling_workspace\finalProject\貓咪.jpg   把電腦當成伺服器不能確定資料夾一樣 
+內部相對路徑
+./貓咪.jpg(finalProject資料夾)
+../貓咪.jpg(wenling_workspace資料夾)
+../ch04/貓咪.jpg
+src位置
+width影片寬度 height影片高度
+
+contrals
+loop重複播放
+muted靜音
+autoplay自動播放 屬性 屬性質一樣  質省略

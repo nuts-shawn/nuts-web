@@ -67,8 +67,7 @@ body {
     font-family: 'cjkFont', sans-serif;
 }
 
-.carousel-item img,
-.carousel-item video {
+.carousel-item img，.carousel-item video {
     border-radius: 10px;
     display: block;
     margin: 0 auto;

@@ -1,0 +1,11 @@
+外部絕對路徑
+https://cw-image-resizer.cwg.tw/re
+
+
+內部絕對路徑
+C:\Users\User\Desktop\Edward_workspace\貓.jpg(Edward_workspace資料夾)
+
+內部相對路徑
+./貓.jpg(ch04資料夾)
+../貓.jpg(Edward_workspace資料夾)
+../finalProject/貓.jpg(finalProject資料夾)

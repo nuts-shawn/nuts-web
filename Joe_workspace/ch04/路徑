@@ -1,0 +1,7 @@
+外部絕對路徑
+https://www.gamereactor.cn/media/40/_2424053_650x.png
+內部絕對路徑
+C:\Users\joeja\OneDrive\桌面\Joe_workspace\ch04\寶可夢.png/
+內部相對路徑
+./寶可夢.jpeg
+../寶可夢.jpeg.上一層資料夾

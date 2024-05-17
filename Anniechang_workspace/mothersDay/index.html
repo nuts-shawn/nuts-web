@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Title -->
+    <title>母親節快樂</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="flower-container" v-if="showFlower">
+            <!-- 花的圖片 -->
+            <img id="flower" src="https://cdn.pixabay.com/photo/2020/04/01/14/55/carnation-4991454_1280.png">
+        </div>
+        <div class="content-container" v-if="!showFlower">
+            <div id="carouselControls" class="carousel slide item" data-bs-ride="carousel" data-bs-wrap="false">
+                <div class="carousel-inner">
+                    <!-- 圖片一 -->
+                    <div class="carousel-item active">
+                        <img src="./image/photo1.jpg" class="d-block w-100">
+                    </div>
+                    <!-- 圖片二 -->
+                    <div class="carousel-item">
+                        <img src="./image/IMG_6256.JPG" class="d-block w-100">
+                    </div>
+                    <!-- 影片一 -->
+                    <div class="carousel-item">
+                        <video src="./image/20240511_111539.mp4" controls class="d-block w-100"></video>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- 卡片內容 -->
+            <div class="item">
+              
+            To:媽媽
+              
+              謝謝妳平常看作業,洗碗,煮飯等事情
+              希望你以後可以開心的度過每一天
+
+              祝妳母親節快樂！
+
+
+
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
