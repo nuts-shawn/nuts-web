@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Title -->
+    <title>母親節快樂</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> 
+</head>
+
+<body>
+    <div id="app">
+        <div class="flower-container" v-if="showFlower">
+            <!-- 花的圖片 -->
+            <img id="flower" src="https://cdn.pixabay.com/photo/2019/12/30/06/21/flowers-4728931_1280.png">
+        </div>
+        <div class="content-container" v-if="!showFlower">
+            <div id="carouselControls" class="carousel slide item" data-bs-ride="carousel" data-bs-wrap="false">
+                <div class="carousel-inner">
+                    <!-- 圖片一 -->
+                    <div class="carousel-item active">
+                        <img src="./image/mother_1.jpg" class="d-block w-100">
+                    </div>
+                    <!-- 圖片二 -->
+                    <div class="carousel-item">
+                        <img src="./image/mother_2.jpg" class="d-block w-100">
+                    </div>
+                    <!-- 圖片三 -->
+                    <div class="carousel-item">
+                        <img src="./image/mother_3.jpg" class="d-block w-100">
+                    </div>
+                    <!-- 影片一 -->
+                    <div class="carousel-item">
+                        <video src="./image/IMG_5790.MOV" controls class="d-block w-100"></video>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- 卡片內容 -->
+            <div class="item">
+               母親節就快要到了,謝謝您總是是默默的把家裡的事處理的井井有條,我知道家裡總是有著許多看不到的瑣事需要處理,您辛苦了,也謝謝您在生活中總是無微不至地照顧著我們,不僅讓我們三餐營養均衡,生活中也到處充滿開心的氛圍,很抱歉有時候總是會讓您擔心我,因為您和爸爸細心的的照顧和關愛,我們一直生活在一的很有愛又溫馨的家庭,很幸運能夠成為您的小孩,我真的從您的身上學到了許多待人處事的道理,以後我也會把自己照顧好,不讓您擔心,祝您母親節快樂!我愛您!
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
