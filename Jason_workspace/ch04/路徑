@@ -1,9 +1,0 @@
-外部絕對路徑
-https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/07/13/0/23183942.jpg
-
-內部絕對路徑
-C:\Users\jason\OneDrive\桌面\Jason_workspace\ch04\Maka Baka.webp
-
-內部相對路徑
-./Maka Baka.jpeg 當前資料夾
-../Maka baka.jpeg 上一層資料夾
