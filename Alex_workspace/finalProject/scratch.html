@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self introduction</title>
+</head>
+<style>
+    .sidebar {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #f3f3f3;
+        overflow-x: hidden;
+        padding-top: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    body {
+        background-image: url(https://img.lovepik.com/background/20211029/medium/lovepik-minimalistic-light-striped-hd-background-image_605810463.jpg);
+        background-size: cover;
+    }
+    @keyframes myAnimation {
+        0%{font-size: 50px;}
+        50%{font-size: 100px;}
+        100%{font-size: 50px;}
+    }
+    .center {
+        text-align: center;
+    }
+    background {
+        background-color: aqua;
+    }
+    .text2 {
+        font-size:75px;
+    }
+    a {
+        color: black;
+    }
+    #what,
+    #so,
+    #game,
+    #log {
+        display: none;
+    }
+</style>
+<body>
+    <div style="margin-left: 210px;">
+    <div class="sidebar">
+        <ol>
+            <l1><h1>我的scratch</h1></l1>
+            <h3>
+                <li><a href="index.html">主要資訊</a></li>
+                <li><a href="2.html">喜歡看的youtube</a></li>
+                <li><a href="3.html">我的興趣</a></li>
+                <li>我的scratch</li>
+                <li><a href="5.html">喜歡看的動漫</a></li>
+            </h3>
+        </ol>
+    </div>
+    <h1 style="animation:myAnimation 25s infinite" class="center">
+        <background>
+            我的scratch
+        </background>
+    </h1>
+    <table style="font-size: 30px;">
+        <tr>
+            <th>
+                <button style="border: none; width: 1px; height: 55px; background-color: rgb(112,112,112); text-align: left;"></button>
+            </th>
+            <th style="width: 50%; text-align: left;">
+                <h1>
+                    以下跟scratch相關的介紹
+                </h1>
+            </th>
+            <th>
+                <button style="border: none; width: 1px; height: 55px; background-color: rgb(112,112,112); text-align: left;"></button>
+            </th>
+            <th>
+                <h2 style="text-align: left;">簡介</h2>
+            </th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <select name="scratch" id="scratch" style="width: 50%;" onchange="scratchChange()">
+                    <option value="說明">說明</option>
+                    <option value="介紹">介紹</option>
+                    <option value="遊戲">遊戲</option>
+                    <option value="登入">登入</option>
+                </select> 
+                <iframe src="https://scratch.mit.edu/projects/963806528/embed"
+                allowtransparency="true"
+                width="485"
+                height="402"
+                frameborder="0"
+                scrolling="no"
+                allowfullscreen>
+                </iframe>
+                <iframe
+                src="https://scratch.mit.edu/projects/939538911/embed"
+                allowtransparency="true"
+                width="485"
+                height="402"
+                frameborder="0"
+                scrolling="no"
+                allowfullscreen>
+                </iframe>
+            </td>
+            <td></td>
+            <td>
+                <p style="text-align: left; width: 750px;">Scratch是由麻省理工媒體實驗室終身幼稚園組開發的積木式程式平台，並且擁有60多種語言。 scratch的功用有很多，比如說它可以讓人寫程式、讓人玩別人做的遊戲、以及做為學習程式的工具，但說實在的，其實沒有帳號，在scratch上很多事都做不了，像是寫程式的，專案會分享不出去；玩別人做的遊戲，不能玩線上遊戲，而且也不能評論；教學的話只能通過下載到電腦來儲存... ，當你擁有帳號，且覺得某人做的專案很好的時候，你可以按下專案下翻的愛心以及興應，代表喜歡及收藏，也可以尋找專案上方的用戶代表圖片，進到他的個人資訊後，點選右上角的關注，這驗只要他有分享什麼專案都會在你scratch上的動態消息出現!而如果你覺得這個專案簡直棒透，想要讓你也能有這個程式，只要將右上角的改編按下，再稍微修改裡面的程式(不要修改到會使程式BUG掉的東西，例如將觸發條件指令拉掉或添加等待致悼且沒有觸發程式等等的，都會讓程式跑不動，如果不會寫程式的話，不用改也沒關係)，並且分享出去，你就可以在scratch上找到你做的這個程式。 </p>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <button id="what" style="border:none; background-color: black; width: 325px; color: #f3f3f3; font-size: 20px;"><em><strong>scratch的功用有很多，比如說它可以讓人寫程式、讓人玩別人做的遊戲、以及做為學習程式的工具，但說實在的，其實沒有帳號，在scratch上很多事都做不了，像是寫程式的，專案會分享不出去；玩別人做的遊戲，不能玩線上遊戲，而且也不能評論；教學的話只能通過下載到電腦來儲存...總之趕快創一個帳號吧(在登入那裏)!</strong></em></button>
+    <button id="so" style="border:none; background-color: black; width: 800px; color: #f3f3f3; font-size: 20px;"><em><strong>建立完帳號後，很多人都會打開探索來玩別人的遊戲(至少我是這樣)，但我們辛辛苦苦見了帳號總不能只是用來評論遊戲吧?接下來為程式教學:動作(深藍色)區域指令:跟腳色的方向、位置以及移動有關外觀(深紫色)區域指令:跟腳色的圖像有關係
+        <ol>
+            <li>動作(深藍色)區域指令: 跟腳色的方向、位置以及移動有關</li>
+            <li>外觀(深紫色)區域指令: 跟腳色的圖像有關係</li>
+            <li>音效(淺紫色)區域指令: 顧名思義，跟音樂、音效有關</li>
+            <li>事件(黃色)區域指令: 幾乎所有最開始觸發程式的指令都在這裡</li>
+            <li>控制(淺橘色)區域指令: 大部分都是重複執行其他指令的指令，也有是觸發條件指令</li>
+            <li>偵測(淺藍色)區域指令: 觸發條件的指令</li>
+            <li>運算(綠色)區域指令: 將程式的數值自動計算成另一個數值的指令</li>
+            <li>變數(深橘色)區域指令: 把數值儲存起來的指令</li>
+            <li>函式積木(紅色)區域指令: 有點像是用那時擁有的指令建造一個指令(至少我的理解是這樣)</li>
+        </ol></strong></em></button>
+    <button id="game" style="border:none; background-color: black; width: 325px; color: #f3f3f3; font-size: 20px;"><em><strong>當你擁有帳號，且覺得某人做的專案很好的時候，你可以按下專案下方的愛心以及星星，代表喜歡及收藏，也可以尋找專案上方的用戶代表圖片，進到他的個人資訊後，點選右上角的關注，這驗只要他有分享什麼專案都會在你scratch上的動態消息出現!而如果你覺得這個專案簡直棒透，想要讓你也能有這個程式，只要將右上角的改編按下，再稍微修改裡面的程式(不要修改到會使程式BUG掉的東西，例如將觸發條件指令拉掉或添加等待致悼且沒有觸發程式等等的，都會讓程式跑不動，如果不會寫程式的話，不用改也沒關係)，並且分享出去，你就可以在scratch上找到你做的這個程式。</strong></em></button>
+    <button id="log" style="border:none; background-color: black; width: 1150px; color: #f3f3f3; font-size: 20px;"><em><strong>
+雖然沒有帳號也能玩別人的遊戲，但如果沒有帳號便無法評論以及點讚加收藏，以下為建立帳號順序:<br>
+<ol>
+    進入scratch(不用我說吧)<br>
+    <li>要找到右上角的「加入scratch」，將它點下去</li>
+    <li>一個你覺得很棒的用戶名稱，但有時候會有人用過，這裡推薦可以在用戶名稱後面隨機打一串數字</li>
+    <li>在上面打上你想要的密碼(要六個字，且不能跟用戶名稱一樣)，並且在下面意行重新打上你的密碼(兩次要一樣)</li>
+    <li>選擇你所居住的國家(這裡不建議亂選，因為你如果不小心紅了起來，那麼會有很多好心人士特別翻譯成你選的國家的語言)</li>
+    <li>接著確定你的生日(這裡我覺得不太重要)</li>
+    <li>再來選擇你的性別(我還是覺得不太重要)</li>
+    <li>填寫完你的電子信箱</li>
+    <li>點選建立你的帳戶</li>
+    <li>點選驗證你的帳戶，接下來就可以使用你的帳號了...開玩笑的，請繼續看下去</li>
+    <li>去找你的Gmail</li>
+    <li>他會發給你一個訊息「no reply」，點選「驗證我的帳戶｣</li>
+    <li>點選OK,let's go!</li>
+    之後就可以在scratch上留下你的紀錄了!
+</ol></strong></em></button>
+    <script>
+        function scratchChange() {
+            if (document.getElementById('scratch').value === "說明") {
+                document.getElementById('what').style.display = 'inline';
+                document.getElementById('so').style.display = 'none';
+                document.getElementById('game').style.display = 'none';
+                document.getElementById('log').style.display = 'none';
+            }
+            if (document.getElementById('scratch').value === "介紹") {
+                document.getElementById('what').style.display = 'none';
+                document.getElementById('so').style.display = 'inline';
+                document.getElementById('game').style.display = 'none';
+                document.getElementById('log').style.display = 'none';
+            }
+            if (document.getElementById('scratch').value === "遊戲") {
+                document.getElementById('what').style.display = 'none';
+                document.getElementById('so').style.display = 'none';
+                document.getElementById('game').style.display = 'inline';
+                document.getElementById('log').style.display = 'none';
+            }
+            if (document.getElementById('scratch').value === "登入") {
+                document.getElementById('what').style.display = 'none';
+                document.getElementById('so').style.display = 'none';
+                document.getElementById('game').style.display = 'none';
+                document.getElementById('log').style.display = 'inline';
+            }
+        }
+    </script>
+    </div>
+    <footer class="center" style="background-color: rgb(200,200,200);">
+        <p>版權所有 &copy; 2024 李慶育的主要資訊</p>
+    </footer>
+</body>
+</html>

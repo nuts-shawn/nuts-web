@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self introduction</title>
+</head>
+<style>
+    .sidebar {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #f3f3f3;
+        overflow-x: hidden;
+        padding-top: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    body {
+        background-image: url(https://img.lovepik.com/background/20211029/medium/lovepik-minimalistic-light-striped-hd-background-image_605810463.jpg);
+        background-size: cover;
+    }
+    @keyframes myAnimation {
+        0%{font-size: 50px;}
+        50%{font-size: 100px;}
+        100%{font-size: 50px;}
+    }
+    .center {
+        text-align: center;
+    }
+    background {
+        background-color: aqua;
+    }
+    .text2 {
+        font-size:75px;
+    }
+    a {
+        color: black;
+    }
+    #abc,
+    #def,
+    #ghi {
+        display: none;
+    }
+</style>
+<body>
+    <div style="margin-left: 210px;">
+    <div class="sidebar">
+        <ol>
+            <l1><h1>喜歡看的動漫</h1></l1>
+            <h3>
+                <li><a href="index.html">主要資訊</a></li>
+                <li><a href="2.html">喜歡看的youtube</a></li>
+                <li><a href="3.html">我的興趣</a></li>
+                <li><a href="4.html">我的scratch</a></li>
+                <li>喜歡看的動畫</li>
+            </h3>
+        </ol>
+    </div>
+    <h1 style="animation:myAnimation 25s infinite" class="center">
+        <background>
+            喜歡看的動漫
+        </background>
+    </h1>
+    <table style="font-size: 30px;">
+        <tr>
+            <th>
+                <button style="border: none; width: 1px; height: 55px; background-color: rgb(112,112,112); text-align: left;"></button>
+            </th>
+            <th style="width: 50%; text-align: left;">
+                <h1>以下是我喜歡的動畫</h1>
+            </th>
+            <th>
+                <button style="border: none; width: 1px; height: 55px; background-color: rgb(112,112,112); text-align: left;"></button>
+            </th>
+            <th>
+                <h2 style="text-align: left;">簡介</h2>
+            </th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <select name="animation" id="animation" style="width: 100%; text-align: left;" onchange="animationChange()">
+                    <option value="@">怪獸八號</option>
+                    <option value="#">排球少年</option>
+                    <option value="$">海賊王</option>
+                </select>
+            </td>
+            <td></td>
+            <td>
+                <p style="width: 900px; text-align: left;">
+                    在動畫的世界裡，想像力是無限的大海，每一幀畫面都是一場奇妙的冒險。卡通中的角色們有時會在一瞬間展現出深刻的情感，有時則用歡樂的舞蹈來表達快樂。他們的生動形象彷彿躍然紙上，吸引觀眾們沉浸其中，忘記現實世界的煩惱。動畫的魔力不僅在於其精美的畫面和生動的角色，更在於它能觸動人心，讓人感受到情感的共鳴。每部優秀的動畫作品都是心靈的洗禮，讓我們在歡笑和淚水中感受到生命的美好。
+                </p>
+            </td>
+        </tr>
+    </table>
+    
+    
+    
+    
+    <button id="abc" style="border: none; background-color: black; width: 325px;"><a
+        href="https://ani.gamer.com.tw/animeVideo.php?sn=37877#goog_rewarded"
+        style="color: white; font-size: 20px;"
+        target="_blank"><em><strong>《怪獸8號》是一部令人著迷的日本動漫，故事講述了一個普通高中生與一個神秘怪獸之間的奇幻冒險。主人公大阪澤暮人在一次偶然事件中，與一隻名為“怪獸8號”的生物融合，獲得了超凡的能力。他必須隱藏自己的身份，同時與其他人類和怪獸對抗，保護自己所珍視的人們。這部動畫充滿了戰鬥、友情和成長的元素，角色們的性格豐富多彩，劇情扣人心弦，絕對會吸引觀眾陷入其中，不可自拔。</strong></em></a>
+    </button>
+    <button id="def" style="border:none; background-color: black; width: 325px;"><a
+        href="https://ani.gamer.com.tw/animeVideo.php?sn=26675#goog_rewarded"
+        style="color:white; font-size: 20px;"
+        target="_blank"><em><strong>《排球少年》是一部關於熱血青春的動漫，以排球運動為背景，講述了主人公日向翔陽在高中時期成長、奮鬥的故事。儘管身材嬌小，翔陽擁有驚人的跳躍力和敏捷度，他以自己的努力和熱情感染著身邊的人，帶領著一支看似不被看好的排球隊伍向著頂峰邁進。在訓練和比賽的過程中，翔陽與隊友們共同成長，克服各種困難，最終實現了自己的夢想。這部動畫不僅展現了排球運動的魅力，更蘊含著青春、友情和奮鬥的精神，深深觸動了觀眾的心靈。</strong></em></a></button>
+    <button id="ghi" style="border:none; background-color: black; width: 325px;"><a
+        href="https://www.iq.com/album/%E8%88%AA%E6%B5%B7%E7%8E%8B-one-piece-1999-19rrh8ngb1?lang=zh_tw"
+        style="color: white; font-size: 20px;"
+        target="_blank"><em><strong>《海賊王》（One Piece）是日本著名的漫畫作品，也被改編成了動畫。這部作品由尾田榮一郎創作，講述了一個關於海賊、冒險和友情的故事。故事主要圍繞著蒙奇·D·魯夫和他的夥伴們展開，他們一起尋找傳說中的寶藏，稱為「One Piece」，並尋找成為海賊王的路。在這個冒險的旅程中，他們遇到了各種各樣的敵人和挑戰，但也結識了許多值得信賴的夥伴，共同經歷了無數的冒險和考驗。《海賊王》以其豐富的世界觀、精彩的戰鬥場面和感人的情感描寫，深受全球觀眾的喜愛。</strong></em></a>
+    </button>
+    <script>
+        function animationChange() {
+            if (document.getElementById('animation').value === "@") {
+                document.getElementById('abc').style.display = "inline";
+                document.getElementById('def').style.display = "none";
+                document.getElementById('ghi').style.display = "none";
+            }
+            if (document.getElementById('animation').value === "#") {
+                document.getElementById('abc').style.display = "none";
+                document.getElementById('def').style.display = "inline";
+                document.getElementById('ghi').style.display = "none";
+            }
+            if (document.getElementById('animation').value === "$") {
+                document.getElementById('abc').style.display = "none";
+                document.getElementById('def').style.display = "none";
+                document.getElementById('ghi').style.display = "inline";
+            }
+        }
+    </script>
+    <footer class="center" style="background-color: rgb(200,200,200);">
+        <p>版權所有 &copy; 2024 李慶育的主要資訊</p>
+    </footer>
+    </div>
+</body>
+</html>
