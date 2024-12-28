@@ -1,8 +1,0 @@
-外部絕對路
-https://en.pimg.jp/108/243/814/1/108243814.jpg
-
-/Users/anniechuang/Desktop/Anniechang _workspace/finalProject/cat.jpg
-
-內部相對路徑
-./cat.jpg
-../cat.jpg
